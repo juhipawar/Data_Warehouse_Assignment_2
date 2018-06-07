@@ -1,4 +1,4 @@
-# Data_Warehouse_Assignment_2
+# Data Management and Warehousing, Analytics
 
 ##  Sentiment Analysis of Twitter Tweet Data using ETL Process and Elastic Search
 
