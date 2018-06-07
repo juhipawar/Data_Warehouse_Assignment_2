@@ -15,7 +15,9 @@ sudoapt-get install -y python3-pip
 pip3 install tweepy
 ```
 4. Create Twitter Account and App. This will give access to the credentials such as Customer key, Customer Secret key, Access Token and Access Token Secret.
+
 ![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d1.png)
+
 5. Create a sample Python App on the instance created on AWS.
 6. Import Tweepy
 7. Copy the Twitter App credentials
@@ -61,6 +63,9 @@ def get_tweets(query):
 
     return tweets
 ```
+
+![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d2%20(2).png)
+
 12. Clean the tweets and save into CSV.
 ```
 queries = ["#GlobalRunningDay -filter:retweets lang:en","#AStarIsBorn -filter:retweets lang:en","#DDay -filter:retweets lang:en","#SunilChhetri -filter:retw$
