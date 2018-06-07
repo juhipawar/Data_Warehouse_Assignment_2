@@ -15,6 +15,7 @@ sudoapt-get install -y python3-pip
 pip3 install tweepy
 ```
 4. Create Twitter Account and App. This will give access to the credentials such as Customer key, Customer Secret key, Access Token and Access Token Secret.
+![alt text]()
 5. Create a sample Python App on the instance created on AWS.
 6. Import Tweepy
 7. Copy the Twitter App credentials
