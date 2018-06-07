@@ -80,6 +80,8 @@ with open ('Clean_file.csv','w') as outfile:
 ```
 ![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d8.png)
 
+![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d10.png)
+
 13. Sentiment Analysis 
 ```
 ```
