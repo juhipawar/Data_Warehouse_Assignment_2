@@ -78,6 +78,8 @@ with open ('Clean_file.csv','w') as outfile:
                         tweet.text=' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)"," ",tweet.text).split())
                         writer.writerow([tweet.id_str,tweet.user.screen_name,tweet.created_at,tweet.text])
 ```
+![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d8.png)
+
 13. Sentiment Analysis 
 ```
 ```
