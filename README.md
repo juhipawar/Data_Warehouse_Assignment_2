@@ -140,10 +140,9 @@ es = Elasticsearch('http://35.183.98.221:9200')
 with open ("File_sentimental.csv") as elasticfilecsv:
         filereader = csv.DictReader(elasticfilecsv)
         helpers.bulk(es,filereader, index='ds', doc_type='ts')
-
-
 ```
-![alt text] ()
+![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d00.png)
+
 15. ETL as Batch Process
 * Create file named shellscript.sh
 * Type the text in this file as shown in figure below.
