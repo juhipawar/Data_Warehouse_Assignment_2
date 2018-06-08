@@ -131,7 +131,7 @@ dataFrame.to_csv('File_sentimental.csv',index=False)
 * Create file named shellscript.sh
 * Type the text in this file as shown in figure below.
 
-![alt text] (
+![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d91.png)
 
 * Type the command 'chmod u+x shellscript.sh'
 * Run the file by using the command './shellscript.sh'
