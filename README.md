@@ -131,7 +131,19 @@ dataFrame.to_csv('File_sentimental.csv',index=False)
 
 14. Loading data into Elastic Search DB
 ```
+from datetime import datetime
+from elasticsearch import Elasticsearch
+from elasticsearch import helpers
+import csv
+
+es = Elasticsearch('http://35.183.98.221:9200')
+with open ("File_sentimental.csv") as elasticfilecsv:
+        filereader = csv.DictReader(elasticfilecsv)
+        helpers.bulk(es,filereader, index='ds', doc_type='ts')
+
+
 ```
+![alt text] ()
 15. ETL as Batch Process
 * Create file named shellscript.sh
 * Type the text in this file as shown in figure below.
