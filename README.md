@@ -88,6 +88,10 @@ with open ('Clean_file.csv','w') as outfile:
 14. Loading data into Elastic Search DB
 ```
 ```
+15. ETL as Batch Process
+* Create file named <fileneme>.sh m
+
+![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d34.png)
 
 
 
