@@ -122,12 +122,15 @@ dataFrame.to_csv('File_sentimental.csv',index=False)
 
 ![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/D89.png)
 
+![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d90.png)
+
 14. Loading data into Elastic Search DB
 ```
 ```
 15. ETL as Batch Process
 * Create file named shellscript.sh
 * Type the text in this file as shown in figure below.
+
 
 * Type the command 'chmod u+x shellscript.sh'
 * Run the file by using the command './shellscript.sh'
