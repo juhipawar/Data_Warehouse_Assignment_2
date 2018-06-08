@@ -125,7 +125,7 @@ dataFrame.to_csv('File_sentimental.csv',index=False)
 
 ```
 
-![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/D89.png)
+![alt text](
 
 ![alt text](https://github.com/juhipawar/Data_Warehouse_Assignment_2/blob/master/d90.png)
 
